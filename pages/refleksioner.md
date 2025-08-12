@@ -8,12 +8,10 @@ Løbende refleksioner om læring, fremskridt og udfordringer. Brug evt. blogindl
 
 
 <ul>
-{% raw %}{% for post in site.posts %}{% endraw %}
+{% for post in site.posts %}
   <li>
-    <a href="{% raw %}{{ post.url | relative_url }}{% endraw %}">
-      {% raw %}{{ post.title }}{% endraw %}
-    </a>
-    <small>— {% raw %}{{ post.date | date: "%Y-%m-%d" }}{% endraw %}</small>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <small>— {{ post.date | date: "%Y-%m-%d" }}</small>
   </li>
-{% raw %}{% endfor %}{% endraw %}
+{% endfor %}
 </ul>
