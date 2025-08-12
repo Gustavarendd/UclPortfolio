@@ -28,6 +28,15 @@ collections:
   reflections:
     output: true
     permalink: /reflections/:name/
+  posts:
+    output: true
+    permalink: /posts/:name/
+  feedback:
+    output: true
+    permalink: /feedback/:name/
+  resources:
+    output: true
+    permalink: /resources/:name/
 
 # Defaults for markdown pages
 defaults:
