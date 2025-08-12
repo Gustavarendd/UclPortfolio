@@ -8,7 +8,8 @@ Løbende refleksioner om læring, fremskridt og udfordringer. Brug evt. blogindl
 
 
 <ul>
-{% for post in site.posts %}
+{% assign reflections = site.posts | where_exp: "p", "p.categories contains 'refleksion'" %}
+{% for post in reflections %}
   <li>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     <small>— {{ post.date | date: "%Y-%m-%d" }}</small>
