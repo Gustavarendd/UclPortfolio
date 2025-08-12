@@ -1,7 +1,7 @@
 title: Gustav Arend – Portfolio
 description: Automatisering & Scripting · Cloud Computing & DevOps
 author: Gustav Arend
-email: you@example.com
+email: Gustavarend@me.com
 theme: minima
 # Enable friendly URLs
 permalink: /:categories/:year/:month/:day/:title/
@@ -14,8 +14,8 @@ plugins:
 minima:
   skin: auto
   social_links:
-    - { platform: github, user_url: "https://github.com/YOUR_GITHUB_USERNAME" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/YOUR_LINKEDIN/" }
+    - { platform: github, user_url: "https://github.com/Gustavarendd" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/gustavarend/" }
 
 # Collections (optional)
 collections:
