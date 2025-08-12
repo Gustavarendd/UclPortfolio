@@ -22,6 +22,9 @@ Scripting (Python/JavaScript), GitHub Actions, AWS/Azure-berøring.
 Hvert projekt dokumenteres med formål, arkitekturdiagram, kodeuddrag, automatisering (Actions), og refleksion over valg/kompromiser.
 
 {% include mermaid.html %}
+
+```mermaid
 graph TD
-A[Build] --> B[Test]
-B --> C[Deploy]
+  A[Build] --> B[Test]
+  B --> C[Deploy]
+```
