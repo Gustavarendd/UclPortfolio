@@ -11,4 +11,13 @@ Denne portefølje samler mit arbejde i efterårssemesteret 2025 inden for **Auto
 - 🔗 [Ressourcer](/ressourcer/)
 - 🎯 [Mål](/maal/)
 
-> *Opsætningen er bygget med GitHub Pages (Jekyll + minima).*
+
+
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <small>— {{ post.date | date: "%Y-%m-%d" }}</small>
+  </li>
+{% endfor %}
+</ul>
