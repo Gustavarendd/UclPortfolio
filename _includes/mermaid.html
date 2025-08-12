@@ -1,0 +1,29 @@
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  (function () {
+    // Pick theme by system preference
+    const prefersDark =
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches;
+    mermaid.initialize({
+      startOnLoad: false,
+      securityLevel: "loose",
+      theme: prefersDark ? "dark" : "default",
+    });
+
+    // Turn fenced code blocks ```mermaid into <div class="mermaid">…</div>
+    document.addEventListener("DOMContentLoaded", function () {
+      const blocks = document.querySelectorAll(
+        "pre > code.language-mermaid, code.mermaid, pre.mermaid",
+      );
+      blocks.forEach(code => {
+        const pre = code.closest("pre") || code;
+        const container = document.createElement("div");
+        container.className = "mermaid";
+        container.textContent = code.textContent;
+        pre.replaceWith(container);
+      });
+      mermaid.run();
+    });
+  })();
+</script>
