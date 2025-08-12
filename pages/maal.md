@@ -1,0 +1,13 @@
+---
+layout: page
+title: Mål
+permalink: /maal/
+---
+
+## Semestermål
+- Automatisering & Scripting: ...
+- Cloud & DevOps: ...
+
+## Statusopdateringer
+- Uge 1: ...
+- Uge 2: ...
