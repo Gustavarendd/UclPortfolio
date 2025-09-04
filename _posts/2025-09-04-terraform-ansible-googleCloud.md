@@ -22,6 +22,7 @@ Dette binder direkte ind i mine emner:
 ---
 
 ## Arkitektur
+
 {% include mermaid.html %}
 
 ```mermaid
@@ -54,7 +55,7 @@ graph TD
     become: true
     tasks:
       - name: Install microk8s
-        snap: name=microk8s classic=yes state=present
+	    snap: name=microk8s classic=yes state=present
       - name: Enable addons
         command: microk8s enable dns registry ingress
   ```
@@ -79,7 +80,7 @@ graph TD
 - `cloudflared tunnel` peger `myapi.gustavarend.com` → NodePort på server.  
 - Gratis TLS fra Cloudflare.  
 - Google accepterer redirect URI:  
-  ```
+```
   https://myapi.gustavarend.com/oauth2/callback
   ```
 
