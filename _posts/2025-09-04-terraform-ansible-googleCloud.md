@@ -22,6 +22,7 @@ Dette binder direkte ind i mine emner:
 ---
 
 ## Arkitektur
+{% include mermaid.html %}
 
 ```mermaid
 graph TD
