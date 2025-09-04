@@ -48,7 +48,8 @@ graph TD
 - Ubuntu Server (på min gamle MacBook Pro).  
 - Installerede MicroK8s, åbnede porte, satte firewall.  
 - Playbook eksempel:
-  ```yaml
+
+  ```
   - hosts: myserver
     become: true
     tasks:
