@@ -51,14 +51,9 @@ I denne session blev der arbejdet med en fuld CI/CD-pipeline, der automatiserer 
 
 ---
 
-**Porteføljeplan:**  
-Hvert pipeline-projekt dokumenteres med:  
-- Formål og sammenhæng (hvordan automatiseringen reducerer manuelle trin)  
-- Arkitekturdiagram (GitHub Actions → GHCR → VPS)  
-- Centrale kodeuddrag (.yml workflow og Dockerfile)  
-- Refleksion over fejl, løsninger og læring  
 
----
+
+
 
 {% include mermaid.html %}
 
