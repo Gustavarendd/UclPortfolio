@@ -17,7 +17,6 @@ I denne session blev der arbejdet med en fuld CI/CD-pipeline, der automatiserer 
 - Erfaring med scripting (Bash, Python, JavaScript)  
 - Grundlæggende forståelse for Docker og containere  
 - Kendskab til Git og GitHub Actions  
-- Erfaring med Cloud-drift (Azure / AWS / VPS)
 
 ---
 
