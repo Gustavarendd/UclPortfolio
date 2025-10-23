@@ -41,7 +41,7 @@ I denne session blev der arbejdet med at containerisere en .NET backend og en MS
    ```bash
    docker run -d --name mssql \
      -e "ACCEPT_EULA=Y" \
-     -e "SA_PASSWORD=VeryStr0ngP@ssw0rd!" \
+     -e "SA_PASSWORD=<PasswordHere>" \
      -p 1433:1433 \
      mcr.microsoft.com/mssql/server:2022-latest
 ```
