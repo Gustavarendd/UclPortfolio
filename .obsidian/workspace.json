@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Noter/2025-10-23-containerisere-backend.md",
+                "file": "_posts/2025-10-23-containerisere-backend.md",
                 "mode": "source",
                 "source": false
               },
@@ -195,10 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d02232c96ff6a67a",
+  "active": "362ad90e06b167b1",
   "lastOpenFiles": [
     "assets/img/Screenshot 2025-10-23 at 10.03.03.png",
-    "Noter/2025-10-23-containerisere-backend.md",
+    "_posts/2025-10-23-containerisere-backend.md",
     "_posts/2025-10-21-docker-vps-pipeline.md",
     "_posts/2025-08-26-Terraform.md",
     "_posts/2025-08-12-forste-indlaeg.md",
