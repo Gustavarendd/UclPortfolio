@@ -4,7 +4,7 @@
   "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 5,
-  "autoPushInterval": 5,
+  "autoPushInterval": 10,
   "autoPullInterval": 0,
   "autoPullOnBoot": true,
   "autoCommitOnlyStaged": false,
