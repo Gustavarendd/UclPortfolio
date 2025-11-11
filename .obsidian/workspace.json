@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Noter/Untitled.md",
+                "file": "Noter/Eksamen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Eksamen"
             }
           }
         ],
@@ -197,10 +197,11 @@
   },
   "active": "d02232c96ff6a67a",
   "lastOpenFiles": [
+    "Noter/Læringsmål.md",
+    "Noter/Eksamen.md",
+    "Noter/Untitled.md",
     "_posts/2025-10-23-containerisere-backend.md",
     "Noter/google-calendar-drive-k8s.md",
-    "Noter/Untitled.md",
-    "Noter/Læringsmål.md",
     "_posts/2025-09-04-terraform-ansible-googleCloud.md",
     "Noter/Her er en test note.md",
     "_posts/2025-09-05-n8n-project.md",
