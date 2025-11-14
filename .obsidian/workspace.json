@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-11-04-Læringsmål.md",
+                "file": "Noter/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-04-Læringsmål"
+              "title": "Untitled"
             }
           }
         ],
@@ -197,10 +197,11 @@
   },
   "active": "d02232c96ff6a67a",
   "lastOpenFiles": [
-    "_posts/2025-11-11-Deployment-and-DevOps-Pipeline.md",
-    "Noter/Eksamen.md",
-    "_posts/2025-11-04-Læringsmål.md",
     "_posts/2025-10-23-containerisere-backend.md",
+    "Noter/Untitled.md",
+    "_posts/2025-11-11-Deployment-and-DevOps-Pipeline.md",
+    "_posts/2025-11-04-Læringsmål.md",
+    "Noter/Eksamen.md",
     "Noter/google-calendar-drive-k8s.md",
     "_posts/2025-09-04-terraform-ansible-googleCloud.md",
     "Noter/Her er en test note.md",
