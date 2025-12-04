@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-11-14-check-vps-n8n-workflow.md",
+                "file": "_posts/2025-11-04-Læringsmål.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-14-check-vps-n8n-workflow"
+              "title": "2025-11-04-Læringsmål"
             }
           }
         ],
@@ -197,14 +197,14 @@
   },
   "active": "d02232c96ff6a67a",
   "lastOpenFiles": [
-    "_posts/2025-10-21-docker-vps-pipeline.md",
-    "_posts/2025-11-14-check-vps-n8n-workflow.md",
+    "Noter/Eksamen.md",
+    "Noter/google-calendar-drive-k8s.md",
     "Noter/Untitled.md",
+    "_posts/2025-11-14-check-vps-n8n-workflow.md",
+    "_posts/2025-10-21-docker-vps-pipeline.md",
     "_posts/2025-10-23-containerisere-backend.md",
     "_posts/2025-11-11-Deployment-and-DevOps-Pipeline.md",
     "_posts/2025-11-04-Læringsmål.md",
-    "Noter/Eksamen.md",
-    "Noter/google-calendar-drive-k8s.md",
     "_posts/2025-09-04-terraform-ansible-googleCloud.md",
     "Noter/Her er en test note.md",
     "_posts/2025-09-05-n8n-project.md",
